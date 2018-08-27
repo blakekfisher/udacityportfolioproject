@@ -1,0 +1,63 @@
+/* Roboto seemed to be the closest match to the mock-up */
+body {
+  font-family: "Roboto-thin", sans-serif;
+  background-color: #fff;
+}
+
+h3,
+h4,
+h5 {
+  color: #757575;
+}
+
+/* I changed the link color to match the Udacity logo color */
+a {
+  color: #02b3e4;
+}
+
+/* Navbar styling */
+.navigation {
+  margin-bottom: 30px;
+}
+
+/* Name and title styling */
+.name,
+.title {
+  text-align: right;
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+
+/* I am trying to centre the Udacity logo with the name. This feels like a work around. Need to update later */
+/* TODO: find a more elegant solution */
+.udacity-logo {
+  margin-top: 5px;
+}
+
+/* Featured work */
+.featured-heading {
+  margin-top: 20px;
+}
+
+.projects {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Bottom paragraph and quote */
+.about-me,
+.about-heading {
+  margin: 2.5% 2.5% 0% 2.5%;
+  padding: 10px;
+  text-align: center;
+}
+
+.quote {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer-nav {
+  text-align: center;
+}
